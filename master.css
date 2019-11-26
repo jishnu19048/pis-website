@@ -1,0 +1,73 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.navbar ul {
+  display: flex;
+  width: 100%;
+
+}
+.navbar ul li:last-child{
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.carousel-item{
+  font-family: 'Baskervville', serif;
+  font-weight: bold;
+
+}
+.card-container{
+  font-family: 'Baskervville', serif;
+  font-weight: bolder;
+}
+
+nav{
+  background-color: #003B46;
+  overflow: auto;
+
+
+}
+.nav-link{
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: bolder;
+  font-weight: 600;
+
+}
+.btn{
+  font-weight: bolder;
+  border-width: thick;
+
+}
+
+div.card-container {
+  height: 100%;
+  width:100%;
+  display:flex;
+}
+
+
+
+.card{
+  margin:auto;
+  width: 300px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+
+}
+h5{
+  text-align: center;
+
+}
+p{
+  text-align: center;
+
+}
+
+.carousel-item img {
+    max-height: 92vh;
+    object-fit: cover;
+}
