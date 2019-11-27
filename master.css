@@ -88,3 +88,8 @@ img.paani {
   font-weight: bolder !important;
 
 }
+iframe{
+  width: 100vw;
+  height: 80vh;
+  object-fit: cover;
+}
