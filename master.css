@@ -60,6 +60,8 @@ div.card-container {
 }
 h5{
   text-align: center;
+  font-weight: bold !important;
+
 
 }
 p{
@@ -74,7 +76,7 @@ p{
 
 img.paani {
   width: 100vw;
-  max-height: 70vh;
+  max-height: 50vh;
   object-fit: cover;
 }
 
@@ -87,9 +89,26 @@ img.paani {
 .h2{
   font-weight: bolder !important;
 
+
+}
+p.lead{
+  font-size: 40px !important;
+
+}
+h2{
+  font-size: 45px !important;
+  font-weight: bolder !important;
+}
+p.ssecond{
+  font-size: 25px !important;
+  font-weight: bold !important;
 }
 iframe{
   width: 100vw;
   height: 80vh;
   object-fit: cover;
+}
+.card{
+  background-color:#07575B !important;
+  color: #ffff !important;
 }
