@@ -1,0 +1,218 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.navbar ul {
+  display: flex;
+  width: 100%;
+
+}
+.navbar ul li:last-child{
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.carousel-item{
+  font-family: 'Baskervville', serif;
+  font-weight: bold;
+
+}
+.card-container{
+  font-family: 'Baskervville', serif;
+  font-weight: bolder;
+}
+
+nav{
+  background-color: #003B46;
+  overflow: auto;
+
+
+}
+.nav-link{
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: bolder;
+  font-weight: 600;
+
+}
+.btn{
+  font-weight: bolder;
+  border-width: thick;
+
+}
+
+div.card-container {
+  height: 100%;
+  width:100%;
+  display:flex;
+}
+
+
+
+.card{
+  margin:auto;
+  width: 300px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+
+}
+h5{
+  text-align: center;
+  font-weight: bold !important;
+
+
+}
+p{
+  text-align: center;
+
+}
+.carousel-item h5{
+  color: #000000;
+  font-size: 30px ;
+  font-weight: bolder !important;
+}
+.carousel-item p{
+  color:#000000;
+  font-size: 25px;
+  font-weight: bolder !important;
+}
+
+.carousel-item img {
+    max-height: 92vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+img.paani {
+  width: 100vw;
+  max-height: 50vh;
+  object-fit: cover;
+}
+button{
+  background-color: #274e91 !important;
+
+}
+.jumbotron{
+  font-family: 'Baskervville', serif;
+  background-color: #66A5AD !important;
+
+
+}
+.h2{
+  font-weight: bolder !important;
+
+
+}
+div.info h5{
+  text-align: left !important;
+}
+p.lead{
+  font-size: 40px !important;
+
+}
+.info p{
+  text-align: left;
+}
+.PH img{
+  align-items: baseline;
+}
+.ultra img{
+  align-items: baseline;
+}
+.ultra p{
+  text-align: left;
+}
+.turb p{
+  text-align: left;
+}
+h2{
+  font-size: 45px !important;
+  font-weight: bolder !important;
+}
+p.ssecond{
+  font-size: 25px !important;
+  font-weight: bold !important;
+}
+iframe{
+  width: 100vw;
+  height: 80vh;
+  object-fit: cover;
+}
+.line{
+ width: 4px;
+}
+.card{
+  background-color:#07575B !important;
+  color: #ffff !important;
+}
+hr.line4 {
+padding: 0;
+border: none;
+border-top: medium double #333;
+color: #333;
+text-align: center;
+}
+hr.line4:after {
+content: "AQUA";
+display: inline-block;
+position: relative;
+top: -0.7em;
+font-size: 1.5em;
+padding: 0 0.25em;
+background: #66A5AD;
+}
+hr.line1 {
+height:8px;
+border: 2px dashed #333;
+}
+
+hr.line2 {
+height:8px;
+border: 2px dashed #333;
+}
+hr.line3{
+height:8px;
+border: 2px dashed #333;
+}
+hr.line5 {
+height: 10px;
+border: 1;
+box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8);
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+-ms-border-radius: 5px;
+-o-border-radius: 5px;
+border-radius: 5px;
+}
+img.card-img-top{
+  width: 265px;
+  height:280px;
+}
+div.rtc{
+  padding-left: 40px;
+}
+div.PH{
+  padding-left: 40px;
+}
+div.ultra{
+  padding-left: 40px;
+}
+div.turb{
+  padding-left: 40px;
+}
+h6{
+  text-align: center;
+}
+.final {
+    text-align: center;
+}
+
+.btn {
+  margin:auto;
+  display:block;
+}
+h3{
+  text-align: left;
+}
